@@ -1,1 +1,6 @@
 # empty
+
+michael:
+  name: lixin
+  email: lixin@jimian.com
+  password_digest: <%= User.digest('password') %>
